@@ -270,6 +270,20 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: Taiwan_Taipei_reality_0
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
 - name: Russia_None_reality_1
   type: vless
   server: 185.22.155.105
@@ -367,6 +381,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_3
   - France_None_hy2_4
   - United States_Los Angeles_hy2_5
+  - Taiwan_Taipei_reality_0
   - Russia_None_reality_1
   - Russia_Moscow_reality_2
   - Taiwan_Taipei_reality_3
@@ -399,6 +414,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_3
   - France_None_hy2_4
   - United States_Los Angeles_hy2_5
+  - Taiwan_Taipei_reality_0
   - Russia_None_reality_1
   - Russia_Moscow_reality_2
   - Taiwan_Taipei_reality_3
