@@ -63,11 +63,12 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_31
-  type: hysteria
-  server: 195.154.200.40
-  port: 2345
-  auth_str: dongtaiwang.com
+- name: United States_Seattle_hysteria2_31
+  type: hysteria2
+  server: 202.5.31.3
+  port: 38654
+  ports: 10000-20000
+  password: dongtaiwang.com
   alpn:
   - h3
   sni: www.bing.com
@@ -363,7 +364,7 @@ proxy-groups:
   - United States_Atlanta_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - France_Paris_hysteria_31
+  - United States_Seattle_hysteria2_31
   - United States_Atlanta_hysteria_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
@@ -396,7 +397,7 @@ proxy-groups:
   - United States_Atlanta_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - France_Paris_hysteria_31
+  - United States_Seattle_hysteria2_31
   - United States_Atlanta_hysteria_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
