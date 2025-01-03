@@ -63,18 +63,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Seattle_hysteria2_31
-  type: hysteria2
+- name: United States_Seattle_vless_31
+  type: vless
   server: 202.5.31.3
-  port: 38654
-  ports: 10000-20000
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+  port: 62040
+  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
+  client-fingerprint: chrome
 - name: United States_Atlanta_hysteria_41
   type: hysteria
   server: 207.174.28.39
@@ -299,11 +300,11 @@ proxies:
   reality-opts:
     public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
     short-id: ''
-- name: Russia_Moscow_reality_2
+- name: United States_Seattle_reality_2
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 202.5.31.18
+  port: 53586
+  uuid: e73082c3-b2d2-47dd-9697-8302c85d6757
   network: tcp
   tls: true
   udp: true
@@ -311,8 +312,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: bjlWtBteD6xktxtts7aVQeNQQE2PuYbI42D5bYT7o0U
+    short-id: 8ea966a1
 - name: Taiwan_Taipei_reality_3
   type: vless
   server: 36.226.244.225
@@ -364,7 +365,7 @@ proxy-groups:
   - United States_Atlanta_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - United States_Seattle_hysteria2_31
+  - United States_Seattle_vless_31
   - United States_Atlanta_hysteria_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
@@ -384,7 +385,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Taiwan_Taipei_reality_0
   - Russia_None_reality_1
-  - Russia_Moscow_reality_2
+  - United States_Seattle_reality_2
   - Taiwan_Taipei_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
@@ -397,7 +398,7 @@ proxy-groups:
   - United States_Atlanta_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - United States_Seattle_hysteria2_31
+  - United States_Seattle_vless_31
   - United States_Atlanta_hysteria_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
@@ -417,7 +418,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Taiwan_Taipei_reality_0
   - Russia_None_reality_1
-  - Russia_Moscow_reality_2
+  - United States_Seattle_reality_2
   - Taiwan_Taipei_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
