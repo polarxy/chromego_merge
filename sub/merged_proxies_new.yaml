@@ -298,20 +298,20 @@ proxies:
   reality-opts:
     public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
     short-id: ''
-- name: United States_Seattle_reality_2
+- name: Russia_Moscow_reality_2
   type: vless
-  server: 202.5.31.3
-  port: 9160
-  uuid: 86b79227-7943-4a4e-aead-03f7537f5215
+  server: 185.22.153.75
+  port: 21315
+  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: dash.cloudflare.com
+  servername: www.yahoo.com
   reality-opts:
-    public-key: fdZm7k4wrEvoWimsdcS7IJvMA_8GHHXZokgfmpodx0s
-    short-id: ''
+    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
+    short-id: d019a9ad
 - name: Taiwan_Taipei_reality_3
   type: vless
   server: 36.226.244.225
@@ -383,7 +383,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Taiwan_Taipei_reality_0
   - Russia_None_reality_1
-  - United States_Seattle_reality_2
+  - Russia_Moscow_reality_2
   - Taiwan_Taipei_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
@@ -416,7 +416,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Taiwan_Taipei_reality_0
   - Russia_None_reality_1
-  - United States_Seattle_reality_2
+  - Russia_Moscow_reality_2
   - Taiwan_Taipei_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
