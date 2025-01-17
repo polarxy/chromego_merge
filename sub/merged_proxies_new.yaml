@@ -25,16 +25,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Atlanta_hysteria_01
+- name: United States_Los Angeles_hysteria_01
   type: hysteria
-  server: 207.174.28.39
-  port: 51165
-  ports: 30000-40000
-  auth_str: dongtaiwang.com
+  server: 108.181.24.77
+  port: 35862
+  ports: 40000-50000
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
 - name: France_Paris_hysteria_11
@@ -361,7 +362,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - United States_Atlanta_hysteria_01
+  - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria_31
@@ -394,7 +395,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Atlanta_hysteria_01
+  - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria_31
