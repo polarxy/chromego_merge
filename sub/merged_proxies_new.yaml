@@ -64,18 +64,45 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_31
-  type: hysteria
+- name: France_Paris_vless_31
+  type: vless
   server: 195.154.200.40
-  port: 2345
-  auth_str: dongtaiwang.com
+  port: 47980
+  uuid: 53044dba-93ee-43d5-b944-be34271a209e
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.ebay.com
+  reality-opts:
+    public-key: IEvQvREKzPsLnipyFxjHjc7ayJpQIZwrqTtwLi2LgHI
+    short-id: null
+  client-fingerprint: chrome
+- name: France_Paris_hysteria_32
+  type: hysteria
+  server: 195.154.200.178
+  port: 10312
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_41
+- name: United States_Los Angeles_ss_41
+  type: ss
+  server: 108.181.24.77
+  port: 33449
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
+    version: 3
+- name: United States_Los Angeles_hysteria_42
   type: hysteria
   server: 108.181.24.77
   port: 35862
@@ -365,8 +392,10 @@ proxy-groups:
   - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - France_Paris_hysteria_31
-  - United States_Los Angeles_hysteria_41
+  - France_Paris_vless_31
+  - France_Paris_hysteria_32
+  - United States_Los Angeles_ss_41
+  - United States_Los Angeles_hysteria_42
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
   - United States_Los Angeles_hysteria_71
@@ -398,8 +427,10 @@ proxy-groups:
   - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - France_Paris_hysteria_31
-  - United States_Los Angeles_hysteria_41
+  - France_Paris_vless_31
+  - France_Paris_hysteria_32
+  - United States_Los Angeles_ss_41
+  - United States_Los Angeles_hysteria_42
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
   - United States_Los Angeles_hysteria_71
