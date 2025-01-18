@@ -25,7 +25,18 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Los Angeles_hysteria_01
+- name: United States_Los Angeles_ss_01
+  type: ss
+  server: 108.181.24.77
+  port: 33449
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
+    version: 3
+- name: United States_Los Angeles_hysteria_02
   type: hysteria
   server: 108.181.24.77
   port: 35862
@@ -183,17 +194,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_3
+- name: United States_None_hy_3
   type: hysteria
-  server: 104.192.224.142
-  port: 14747
-  ports: 14747
+  server: 208.87.243.187
+  port: 63721
+  ports: 47000-48000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -211,17 +222,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy_5
+- name: United States_None_hy_5
   type: hysteria
-  server: 104.192.224.142
-  port: 14747
-  ports: 14747
+  server: 208.87.243.187
+  port: 63721
+  ports: 47000-48000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -363,7 +374,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - United States_Los Angeles_hysteria_01
+  - United States_Los Angeles_ss_01
+  - United States_Los Angeles_hysteria_02
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria2_31
@@ -375,9 +387,9 @@ proxy-groups:
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - France_Paris_hy_2
-  - United States_Los Angeles_hy_3
+  - United States_None_hy_3
   - United States_Los Angeles_hy_4
-  - United States_Los Angeles_hy_5
+  - United States_None_hy_5
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - France_None_hy2_2
@@ -396,7 +408,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Los Angeles_hysteria_01
+  - United States_Los Angeles_ss_01
+  - United States_Los Angeles_hysteria_02
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria2_31
@@ -408,9 +421,9 @@ proxy-groups:
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - France_Paris_hy_2
-  - United States_Los Angeles_hy_3
+  - United States_None_hy_3
   - United States_Los Angeles_hy_4
-  - United States_Los Angeles_hy_5
+  - United States_None_hy_5
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
   - France_None_hy2_2
