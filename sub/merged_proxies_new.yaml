@@ -25,18 +25,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Los Angeles_ss_01
-  type: ss
-  server: 108.181.24.77
-  port: 33449
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
-    version: 3
-- name: United States_Los Angeles_hysteria_02
+- name: United States_Los Angeles_hysteria_01
   type: hysteria
   server: 108.181.24.77
   port: 35862
@@ -374,8 +363,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - United States_Los Angeles_ss_01
-  - United States_Los Angeles_hysteria_02
+  - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria2_31
@@ -408,8 +396,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Los Angeles_ss_01
-  - United States_Los Angeles_hysteria_02
+  - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria2_31
