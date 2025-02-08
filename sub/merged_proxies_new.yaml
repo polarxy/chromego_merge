@@ -28,10 +28,10 @@ proxies:
 - name: United States_Los Angeles_hysteria_01
   type: hysteria
   server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  port: 11512
+  ports: 20000-30000
   auth-str: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -54,10 +54,10 @@ proxies:
 - name: United States_Los Angeles_hysteria_21
   type: hysteria
   server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  port: 11512
+  ports: 20000-30000
   auth-str: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
