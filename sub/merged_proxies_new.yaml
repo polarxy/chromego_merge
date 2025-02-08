@@ -41,10 +41,10 @@ proxies:
 - name: France_Paris_hysteria_11
   type: hysteria
   server: 195.154.200.178
-  port: 10312
+  port: 34911
   auth-str: dongtaiwang.com
   obfs: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -78,10 +78,10 @@ proxies:
 - name: United States_Los Angeles_hysteria_41
   type: hysteria
   server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  port: 11512
+  ports: 20000-30000
   auth-str: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -117,10 +117,10 @@ proxies:
 - name: United States_Los Angeles_hysteria_71
   type: hysteria
   server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  port: 11512
+  ports: 20000-30000
   auth-str: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -130,10 +130,10 @@ proxies:
 - name: United States_Los Angeles_hysteria_81
   type: hysteria
   server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  port: 11512
+  ports: 20000-30000
   auth-str: dongtaiwang.com
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -199,14 +199,14 @@ proxies:
 - name: United States_Los Angeles_hy_4
   type: hysteria
   server: 108.181.24.77
-  port: 35862
-  ports: 40000-50000
+  port: 11512
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -251,10 +251,10 @@ proxies:
 - name: United States_Los Angeles_hy2_3
   type: hysteria2
   server: 108.181.5.130
-  port: 7329
+  port: 43836
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
 - name: France_None_hy2_4
   type: hysteria2
@@ -267,10 +267,10 @@ proxies:
 - name: United States_Los Angeles_hy2_5
   type: hysteria2
   server: 108.181.5.130
-  port: 7329
+  port: 43836
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
 - name: Russia_Moscow_reality_0
   type: vless
