@@ -64,11 +64,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_31
+- name: The Netherlands_Amsterdam_hysteria_31
   type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
+  server: 62.210.10.113
+  port: 11503
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -302,11 +301,11 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: Russia_Moscow_reality_2
+- name: France_None_reality_2
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 62.210.125.97
+  port: 65280
+  uuid: 5bf1ced2-27ad-4908-83db-0b1f9a4f6047
   network: tcp
   tls: true
   udp: true
@@ -314,8 +313,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: 7NC6hW-P41pciUEhAylbleVf4a2ZStJVuJpjmZgp7iQ
+    short-id: 5628b8f0
 - name: Russia_Moscow_reality_3
   type: vless
   server: 185.22.153.75
@@ -367,7 +366,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - United States_Los Angeles_hysteria_31
+  - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_hysteria_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
@@ -387,7 +386,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Russia_Moscow_reality_0
   - Russia_None_reality_1
-  - Russia_Moscow_reality_2
+  - France_None_reality_2
   - Russia_Moscow_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
@@ -400,7 +399,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
-  - United States_Los Angeles_hysteria_31
+  - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_hysteria_41
   - France_Paris_hysteria_51
   - France_Paris_hysteria_61
@@ -420,7 +419,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Russia_Moscow_reality_0
   - Russia_None_reality_1
-  - Russia_Moscow_reality_2
+  - France_None_reality_2
   - Russia_Moscow_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
