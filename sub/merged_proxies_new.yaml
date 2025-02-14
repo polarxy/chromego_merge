@@ -25,19 +25,19 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Los Angeles_hysteria_01
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  ports: 20000-30000
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: United States_Los Angeles_tuic_01
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: Russia_Moscow_tuic_11
   server: 185.22.152.125
   port: 59728
@@ -58,7 +58,8 @@ proxies:
   password: 074f49ce-e698-4eca-9a7f-25b480737c5d
   alpn:
   - h3
-  disable-sni: true
+  sni: www.bing.com
+  skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
@@ -361,7 +362,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - United States_Los Angeles_hysteria_01
+  - United States_Los Angeles_tuic_01
   - Russia_Moscow_tuic_11
   - Russia_Moscow_tuic_21
   - The Netherlands_Amsterdam_hysteria_31
@@ -394,7 +395,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Los Angeles_hysteria_01
+  - United States_Los Angeles_tuic_01
   - Russia_Moscow_tuic_11
   - Russia_Moscow_tuic_21
   - The Netherlands_Amsterdam_hysteria_31
