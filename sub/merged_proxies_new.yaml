@@ -141,11 +141,11 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_None_hy_0
+- name: Russia_None_hy_0
   type: hysteria
-  server: 208.87.243.187
-  port: 63721
-  ports: 47000-48000
+  server: 185.22.155.71
+  port: 63717
+  ports: 40000-50000
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -158,8 +158,8 @@ proxies:
 - name: United States_None_hy_1
   type: hysteria
   server: 208.87.243.187
-  port: 63721
-  ports: 47000-48000
+  port: 40528
+  ports: 40528
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -372,7 +372,7 @@ proxy-groups:
   - Russia_Moscow_tuic_61
   - United States_Los Angeles_hysteria_71
   - Russia_Moscow_tuic_81
-  - United States_None_hy_0
+  - Russia_None_hy_0
   - United States_None_hy_1
   - France_Paris_hy_2
   - Russia_None_hy_3
@@ -405,7 +405,7 @@ proxy-groups:
   - Russia_Moscow_tuic_61
   - United States_Los Angeles_hysteria_71
   - Russia_Moscow_tuic_81
-  - United States_None_hy_0
+  - Russia_None_hy_0
   - United States_None_hy_1
   - France_Paris_hy_2
   - Russia_None_hy_3
