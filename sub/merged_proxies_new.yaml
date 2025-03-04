@@ -40,22 +40,22 @@ proxies:
   congestion-controller: bbr
 - name: Russia_Moscow_tuic_11
   server: 185.22.152.125
-  port: 59728
+  port: 13457
   type: tuic
-  uuid: 074f49ce-e698-4eca-9a7f-25b480737c5d
-  password: 074f49ce-e698-4eca-9a7f-25b480737c5d
+  uuid: 3d6ce949-101b-4e5d-8be8-a631481a9ebd
+  password: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
 - name: Russia_Moscow_tuic_21
   server: 185.22.152.125
-  port: 56119
+  port: 13457
   type: tuic
-  uuid: 7f372919-7d0c-414e-9da8-999f35326713
+  uuid: 3d6ce949-101b-4e5d-8be8-a631481a9ebd
   password: dongtaiwang.com
   alpn:
   - h3
@@ -227,7 +227,7 @@ proxies:
 - name: United States_Los Angeles_hy2_0
   type: hysteria2
   server: 108.181.5.130
-  port: 43836
+  port: 15544
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -235,7 +235,7 @@ proxies:
 - name: United States_Los Angeles_hy2_1
   type: hysteria2
   server: 108.181.5.130
-  port: 43836
+  port: 15544
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
