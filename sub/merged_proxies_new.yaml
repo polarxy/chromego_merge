@@ -154,20 +154,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_1
-  type: hysteria
-  server: 208.87.243.187
-  port: 40528
-  ports: 40528
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_2
   type: hysteria
   server: 195.154.200.40
@@ -358,7 +344,6 @@ proxy-groups:
   - United States_Los Angeles_hysteria_71
   - Russia_Moscow_tuic_81
   - Russia_None_hy_0
-  - United States_None_hy_1
   - France_Paris_hy_2
   - Russia_None_hy_3
   - France_Paris_hy_4
@@ -390,7 +375,6 @@ proxy-groups:
   - United States_Los Angeles_hysteria_71
   - Russia_Moscow_tuic_81
   - Russia_None_hy_0
-  - United States_None_hy_1
   - France_Paris_hy_2
   - Russia_None_hy_3
   - France_Paris_hy_4
