@@ -102,14 +102,14 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: Russia_Moscow_tuic_61
-  server: 185.22.152.125
-  port: 13457
+  server: 46.29.166.207
+  port: 19988
   type: tuic
-  uuid: 3d6ce949-101b-4e5d-8be8-a631481a9ebd
+  uuid: c2028608-6993-46eb-8b58-0426c813a7ac
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
@@ -127,23 +127,23 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: Russia_Moscow_tuic_81
-  server: 185.22.152.125
-  port: 13457
+  server: 46.29.166.207
+  port: 19988
   type: tuic
-  uuid: 3d6ce949-101b-4e5d-8be8-a631481a9ebd
+  uuid: c2028608-6993-46eb-8b58-0426c813a7ac
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Russia_None_hy_0
+- name: France_Paris_hy_0
   type: hysteria
-  server: 185.22.155.71
-  port: 24342
-  ports: 24342
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -243,11 +243,11 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: Russia_Moscow_reality_0
+- name: United States_Los Angeles_reality_0
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -255,8 +255,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 - name: Russia_None_reality_1
   type: vless
   server: 185.22.155.105
@@ -299,11 +299,11 @@ proxies:
   reality-opts:
     public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
     short-id: 694212ed
-- name: Russia_None_reality_4
+- name: United States_Salt Lake City_reality_4
   type: vless
-  server: 185.22.155.105
-  port: 42632
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  server: 208.115.249.104
+  port: 63067
+  uuid: cc2272a3-0ddd-4c5a-bbb7-9a2079ac650d
   network: tcp
   tls: true
   udp: true
@@ -311,8 +311,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
-    short-id: 1f8b5201
+    public-key: jqXZMbA5yqqAOQJa_7GAOOGK7qb_BUBXgG702ItdZRc
+    short-id: cb2c9c63
 - name: Russia_None_reality_5
   type: vless
   server: 185.22.155.105
@@ -342,7 +342,7 @@ proxy-groups:
   - Russia_Moscow_tuic_61
   - United States_Los Angeles_hysteria_71
   - Russia_Moscow_tuic_81
-  - Russia_None_hy_0
+  - France_Paris_hy_0
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -352,11 +352,11 @@ proxy-groups:
   - United States_Los Angeles_hy2_3
   - France_Paris_hy2_4
   - United States_Los Angeles_hy2_5
-  - Russia_Moscow_reality_0
+  - United States_Los Angeles_reality_0
   - Russia_None_reality_1
   - United States_Los Angeles_reality_2
   - United States_Los Angeles_reality_3
-  - Russia_None_reality_4
+  - United States_Salt Lake City_reality_4
   - Russia_None_reality_5
 - name: 自动选择
   type: url-test
@@ -373,7 +373,7 @@ proxy-groups:
   - Russia_Moscow_tuic_61
   - United States_Los Angeles_hysteria_71
   - Russia_Moscow_tuic_81
-  - Russia_None_hy_0
+  - France_Paris_hy_0
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -383,11 +383,11 @@ proxy-groups:
   - United States_Los Angeles_hy2_3
   - France_Paris_hy2_4
   - United States_Los Angeles_hy2_5
-  - Russia_Moscow_reality_0
+  - United States_Los Angeles_reality_0
   - Russia_None_reality_1
   - United States_Los Angeles_reality_2
   - United States_Los Angeles_reality_3
-  - Russia_None_reality_4
+  - United States_Salt Lake City_reality_4
   - Russia_None_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
