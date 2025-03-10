@@ -118,7 +118,6 @@ proxies:
   type: hysteria
   server: 108.181.24.77
   port: 11512
-  ports: 20000-30000
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -168,11 +167,11 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: Russia_None_hy_3
+- name: France_Paris_hy_3
   type: hysteria
-  server: 185.22.155.71
-  port: 24342
-  ports: 24342
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -272,11 +271,11 @@ proxies:
   reality-opts:
     public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
     short-id: 1f8b5201
-- name: Russia_Moscow_reality_2
+- name: United States_Los Angeles_reality_2
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -284,13 +283,13 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
-- name: Russia_Moscow_reality_3
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
+- name: United States_Los Angeles_reality_3
   type: vless
-  server: 185.22.153.75
-  port: 21315
-  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
   network: tcp
   tls: true
   udp: true
@@ -298,8 +297,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
-    short-id: d019a9ad
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 - name: Russia_None_reality_4
   type: vless
   server: 185.22.155.105
@@ -345,7 +344,7 @@ proxy-groups:
   - Russia_Moscow_tuic_81
   - Russia_None_hy_0
   - France_Paris_hy_2
-  - Russia_None_hy_3
+  - France_Paris_hy_3
   - France_Paris_hy_4
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
@@ -355,8 +354,8 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Russia_Moscow_reality_0
   - Russia_None_reality_1
-  - Russia_Moscow_reality_2
-  - Russia_Moscow_reality_3
+  - United States_Los Angeles_reality_2
+  - United States_Los Angeles_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
 - name: 自动选择
@@ -376,7 +375,7 @@ proxy-groups:
   - Russia_Moscow_tuic_81
   - Russia_None_hy_0
   - France_Paris_hy_2
-  - Russia_None_hy_3
+  - France_Paris_hy_3
   - France_Paris_hy_4
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
@@ -386,8 +385,8 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - Russia_Moscow_reality_0
   - Russia_None_reality_1
-  - Russia_Moscow_reality_2
-  - Russia_Moscow_reality_3
+  - United States_Los Angeles_reality_2
+  - United States_Los Angeles_reality_3
   - Russia_None_reality_4
   - Russia_None_reality_5
 rules:
