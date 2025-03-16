@@ -39,14 +39,14 @@ proxies:
   udp-relay-mode: native
   congestion-controller: bbr
 - name: Russia_Moscow_tuic_11
-  server: 46.29.166.207
-  port: 19988
+  server: 185.22.152.125
+  port: 59728
   type: tuic
-  uuid: c2028608-6993-46eb-8b58-0426c813a7ac
-  password: dongtaiwang.com
+  uuid: 074f49ce-e698-4eca-9a7f-25b480737c5d
+  password: 074f49ce-e698-4eca-9a7f-25b480737c5d
   alpn:
   - h3
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
