@@ -51,19 +51,18 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: Russia_Moscow_tuic_21
-  server: 46.29.166.207
-  port: 19988
-  type: tuic
-  uuid: c2028608-6993-46eb-8b58-0426c813a7ac
-  password: dongtaiwang.com
-  alpn:
-  - h3
+- name: United States_Los Angeles_hysteria_21
+  type: hysteria
+  server: 108.181.24.77
+  port: 11512
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: The Netherlands_Amsterdam_hysteria_31
   type: hysteria
   server: 62.210.10.113
@@ -333,7 +332,7 @@ proxy-groups:
   - DIRECT
   - United States_Los Angeles_tuic_01
   - Russia_Moscow_tuic_11
-  - Russia_Moscow_tuic_21
+  - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
   - France_Paris_hysteria_51
@@ -364,7 +363,7 @@ proxy-groups:
   proxies:
   - United States_Los Angeles_tuic_01
   - Russia_Moscow_tuic_11
-  - Russia_Moscow_tuic_21
+  - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
   - France_Paris_hysteria_51
