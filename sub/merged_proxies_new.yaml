@@ -295,11 +295,11 @@ proxies:
   reality-opts:
     public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
     short-id: 4b4d9d72
-- name: United States_Salt Lake City_reality_4
+- name: Hong Kong_None_reality_4
   type: vless
-  server: 208.115.249.104
-  port: 63067
-  uuid: cc2272a3-0ddd-4c5a-bbb7-9a2079ac650d
+  server: 156.225.81.102
+  port: 16113
+  uuid: 9b04495c-caf6-4ece-895f-402f12a270a5
   network: tcp
   tls: true
   udp: true
@@ -307,8 +307,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: jqXZMbA5yqqAOQJa_7GAOOGK7qb_BUBXgG702ItdZRc
-    short-id: cb2c9c63
+    public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
+    short-id: f3e00baf
 - name: Russia_None_reality_5
   type: vless
   server: 185.22.155.105
@@ -352,7 +352,7 @@ proxy-groups:
   - Russia_None_reality_1
   - United States_Los Angeles_reality_2
   - France_Paris_reality_3
-  - United States_Salt Lake City_reality_4
+  - Hong Kong_None_reality_4
   - Russia_None_reality_5
 - name: 自动选择
   type: url-test
@@ -383,7 +383,7 @@ proxy-groups:
   - Russia_None_reality_1
   - United States_Los Angeles_reality_2
   - France_Paris_reality_3
-  - United States_Salt Lake City_reality_4
+  - Hong Kong_None_reality_4
   - Russia_None_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
