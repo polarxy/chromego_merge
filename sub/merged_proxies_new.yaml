@@ -149,20 +149,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_1
-  type: hysteria
-  server: 208.87.243.187
-  port: 40528
-  ports: 40528
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_2
   type: hysteria
   server: 195.154.200.40
@@ -323,11 +309,11 @@ proxies:
   reality-opts:
     public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
     short-id: 4b4d9d72
-- name: Hong Kong_None_reality_4
+- name: France_Paris_reality_4
   type: vless
-  server: 156.225.81.102
-  port: 16113
-  uuid: 9b04495c-caf6-4ece-895f-402f12a270a5
+  server: 51.158.205.126
+  port: 24957
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
   network: tcp
   tls: true
   udp: true
@@ -335,8 +321,8 @@ proxies:
   client-fingerprint: chrome
   servername: www.yahoo.com
   reality-opts:
-    public-key: gLFqVMVuAmp_TQJJyz0eEhh2jGiUY3973cOSEKG3cxc
-    short-id: f3e00baf
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
 - name: Russia_None_reality_5
   type: vless
   server: 185.22.155.105
@@ -367,7 +353,6 @@ proxy-groups:
   - United States_Los Angeles_hysteria_71
   - United States_Los Angeles_hysteria_81
   - France_Paris_hy_0
-  - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -382,7 +367,7 @@ proxy-groups:
   - Russia_None_reality_1
   - United States_Los Angeles_reality_2
   - France_Paris_reality_3
-  - Hong Kong_None_reality_4
+  - France_Paris_reality_4
   - Russia_None_reality_5
 - name: 自动选择
   type: url-test
@@ -400,7 +385,6 @@ proxy-groups:
   - United States_Los Angeles_hysteria_71
   - United States_Los Angeles_hysteria_81
   - France_Paris_hy_0
-  - United States_None_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -415,7 +399,7 @@ proxy-groups:
   - Russia_None_reality_1
   - United States_Los Angeles_reality_2
   - France_Paris_reality_3
-  - Hong Kong_None_reality_4
+  - France_Paris_reality_4
   - Russia_None_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
