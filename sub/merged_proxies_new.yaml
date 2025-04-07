@@ -87,18 +87,13 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: France_Paris_hysteria_51
-  type: hysteria
-  server: 195.154.200.178
-  port: 46938
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: United States_Los Angeles_mieru_51
+  type: mieru
+  server: 108.181.23.41
+  port: 28676
+  transport: TCP
+  username: dongtaiwang.com
+  password: dongtaiwang.com
 - name: United States_Los Angeles_hysteria_61
   type: hysteria
   server: 108.181.24.77
@@ -348,7 +343,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
-  - France_Paris_hysteria_51
+  - United States_Los Angeles_mieru_51
   - United States_Los Angeles_hysteria_61
   - United States_Los Angeles_hysteria_71
   - United States_Los Angeles_hysteria_81
@@ -380,7 +375,7 @@ proxy-groups:
   - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
-  - France_Paris_hysteria_51
+  - United States_Los Angeles_mieru_51
   - United States_Los Angeles_hysteria_61
   - United States_Los Angeles_hysteria_71
   - United States_Los Angeles_hysteria_81
