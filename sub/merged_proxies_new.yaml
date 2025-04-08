@@ -94,18 +94,13 @@ proxies:
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
-- name: United States_Los Angeles_hysteria_61
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: Russia_None_mieru_61
+  type: mieru
+  server: 185.22.155.105
+  port: 25622
+  transport: TCP
+  username: dongtaiwang.com
+  password: dongtaiwang.com
 - name: United States_Los Angeles_hysteria_71
   type: hysteria
   server: 108.181.24.77
@@ -358,7 +353,7 @@ proxy-groups:
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
-  - United States_Los Angeles_hysteria_61
+  - Russia_None_mieru_61
   - United States_Los Angeles_hysteria_71
   - United States_Los Angeles_hysteria_81
   - France_Paris_hy_0
@@ -391,7 +386,7 @@ proxy-groups:
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
-  - United States_Los Angeles_hysteria_61
+  - Russia_None_mieru_61
   - United States_Los Angeles_hysteria_71
   - United States_Los Angeles_hysteria_81
   - France_Paris_hy_0
