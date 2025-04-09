@@ -38,18 +38,13 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_11
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: Russia_None_mieru_11
+  type: mieru
+  server: 185.22.155.105
+  port: 25622
+  transport: TCP
+  username: dongtaiwang.com
+  password: dongtaiwang.com
 - name: United States_Los Angeles_hysteria_21
   type: hysteria
   server: 108.181.24.77
@@ -348,7 +343,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_Los Angeles_tuic_01
-  - United States_Los Angeles_hysteria_11
+  - Russia_None_mieru_11
   - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
@@ -381,7 +376,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_Los Angeles_tuic_01
-  - United States_Los Angeles_hysteria_11
+  - Russia_None_mieru_11
   - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
