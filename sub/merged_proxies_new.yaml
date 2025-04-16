@@ -231,7 +231,7 @@ proxies:
 - name: United States_Los Angeles_hy2_3
   type: hysteria2
   server: 108.181.5.130
-  port: 15544
+  port: 65232
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -239,7 +239,7 @@ proxies:
 - name: France_Paris_hy2_4
   type: hysteria2
   server: 51.159.226.1
-  port: 61770
+  port: 43496
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
