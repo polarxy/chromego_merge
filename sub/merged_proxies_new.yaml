@@ -207,7 +207,7 @@ proxies:
 - name: United States_Los Angeles_hy2_0
   type: hysteria2
   server: 108.181.5.130
-  port: 65232
+  port: 15544
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
