@@ -57,6 +57,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: The Netherlands_Amsterdam_hysteria_31
+  type: hysteria
+  server: 62.210.10.113
+  port: 22662
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_Los Angeles_tuic_41
   server: 108.181.5.131
   port: 34008
@@ -333,6 +345,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_01
   - Russia_None_mieru_11
   - United States_Los Angeles_hysteria_21
+  - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
   - Russia_None_mieru_61
@@ -365,6 +378,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_01
   - Russia_None_mieru_11
   - United States_Los Angeles_hysteria_21
+  - The Netherlands_Amsterdam_hysteria_31
   - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
   - Russia_None_mieru_61
