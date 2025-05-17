@@ -204,13 +204,13 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_Los Angeles_hy2_0
+- name: France_Paris_hy2_0
   type: hysteria2
-  server: 108.181.5.130
-  port: 57773
+  server: hy2-1.694463.xyz
+  port: 4489
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: Russia_Moscow_hy2_1
   type: hysteria2
@@ -357,7 +357,7 @@ proxy-groups:
   - France_Paris_hy_3
   - France_Paris_hy_4
   - France_Paris_hy_5
-  - United States_Los Angeles_hy2_0
+  - France_Paris_hy2_0
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
@@ -390,7 +390,7 @@ proxy-groups:
   - France_Paris_hy_3
   - France_Paris_hy_4
   - France_Paris_hy_5
-  - United States_Los Angeles_hy2_0
+  - France_Paris_hy2_0
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
