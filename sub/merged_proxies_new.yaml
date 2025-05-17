@@ -69,6 +69,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: United States_Los Angeles_tuic_41
+  server: 108.181.5.131
+  port: 34008
+  type: tuic
+  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: United States_Los Angeles_mieru_51
   type: mieru
   server: 108.181.23.41
@@ -223,6 +236,14 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: United States_Los Angeles_hy2_4
+  type: hysteria2
+  server: 108.181.5.130
+  port: 57773
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
 - name: Russia_Moscow_hy2_5
   type: hysteria2
   server: 46.17.41.5
@@ -259,6 +280,20 @@ proxies:
   reality-opts:
     public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
     short-id: 694212ed
+- name: France_Paris_reality_2
+  type: vless
+  server: 51.158.205.126
+  port: 24957
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
 - name: United States_Los Angeles_reality_3
   type: vless
   server: 108.181.3.68
@@ -311,6 +346,7 @@ proxy-groups:
   - Russia_None_mieru_11
   - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
+  - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
   - Russia_None_mieru_61
   - United States_Los Angeles_hysteria_71
@@ -325,9 +361,11 @@ proxy-groups:
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
+  - United States_Los Angeles_hy2_4
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
+  - France_Paris_reality_2
   - United States_Los Angeles_reality_3
   - Russia_None_reality_4
   - United States_Los Angeles_reality_5
@@ -341,6 +379,7 @@ proxy-groups:
   - Russia_None_mieru_11
   - United States_Los Angeles_hysteria_21
   - The Netherlands_Amsterdam_hysteria_31
+  - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
   - Russia_None_mieru_61
   - United States_Los Angeles_hysteria_71
@@ -355,9 +394,11 @@ proxy-groups:
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
+  - United States_Los Angeles_hy2_4
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
+  - France_Paris_reality_2
   - United States_Los Angeles_reality_3
   - Russia_None_reality_4
   - United States_Los Angeles_reality_5
