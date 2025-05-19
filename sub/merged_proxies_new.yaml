@@ -282,7 +282,7 @@ proxies:
     short-id: 694212ed
 - name: France_Paris_reality_2
   type: vless
-  server: 51.158.205.126
+  server: 51.158.213.119
   port: 24957
   uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
   network: tcp
