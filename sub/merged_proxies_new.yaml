@@ -176,6 +176,34 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: France_Paris_hy_4
+  type: hysteria
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: France_Paris_hy_5
+  type: hysteria
+  server: 51.159.226.1
+  port: 14241
+  ports: 14241
+  auth_str: dongtaiwang.com
+  up: 1000
+  down: 1000
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: France_Paris_hy2_0
   type: hysteria2
   server: hy2-1.694463.xyz
@@ -280,6 +308,34 @@ proxies:
   reality-opts:
     public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
     short-id: 694212ed
+- name: Russia_None_reality_4
+  type: vless
+  server: 185.22.155.105
+  port: 42632
+  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
+    short-id: 1f8b5201
+- name: United States_Los Angeles_reality_5
+  type: vless
+  server: 108.181.3.68
+  port: 19873
+  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
+    short-id: 694212ed
 proxy-groups:
 - name: 节点选择
   type: select
@@ -299,6 +355,8 @@ proxy-groups:
   - France_Paris_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
+  - France_Paris_hy_4
+  - France_Paris_hy_5
   - France_Paris_hy2_0
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
@@ -309,6 +367,8 @@ proxy-groups:
   - United States_Los Angeles_reality_1
   - France_Paris_reality_2
   - United States_Los Angeles_reality_3
+  - Russia_None_reality_4
+  - United States_Los Angeles_reality_5
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -328,6 +388,8 @@ proxy-groups:
   - France_Paris_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
+  - France_Paris_hy_4
+  - France_Paris_hy_5
   - France_Paris_hy2_0
   - Russia_Moscow_hy2_1
   - France_Paris_hy2_2
@@ -338,6 +400,8 @@ proxy-groups:
   - United States_Los Angeles_reality_1
   - France_Paris_reality_2
   - United States_Los Angeles_reality_3
+  - Russia_None_reality_4
+  - United States_Los Angeles_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
