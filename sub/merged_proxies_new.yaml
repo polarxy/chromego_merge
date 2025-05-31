@@ -283,59 +283,59 @@ proxies:
 - name: United States_None_reality_2
   type: vless
   server: 198.40.52.26
-  port: 36311
-  uuid: 91b61883-5689-45a2-938e-7ed1dada457c
+  port: 20783
+  uuid: 942e9337-6cd1-471e-ae3e-6a4ae0f38465
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: www.yahoo.com
+  servername: aws.amazon.com
   reality-opts:
-    public-key: qXgDpdoO4FshU51gC8ayY3bgud_nQArKVLLCMCtvc3w
-    short-id: 15847f28
+    public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
+    short-id: ''
 - name: United States_Los Angeles_reality_3
   type: vless
   server: 108.181.3.68
-  port: 19873
-  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
+  port: 51499
+  uuid: c643de0a-9678-4c18-9f55-58620425bac0
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: www.yahoo.com
+  servername: aws.amazon.com
   reality-opts:
-    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
-    short-id: 694212ed
-- name: Russia_None_reality_4
+    public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
+- name: United States_None_reality_4
   type: vless
-  server: 185.22.155.105
-  port: 42632
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  server: 198.40.52.26
+  port: 20783
+  uuid: 942e9337-6cd1-471e-ae3e-6a4ae0f38465
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: www.yahoo.com
+  servername: aws.amazon.com
   reality-opts:
-    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
-    short-id: 1f8b5201
+    public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
+    short-id: ''
 - name: United States_Los Angeles_reality_5
   type: vless
   server: 108.181.3.68
-  port: 19873
-  uuid: 288eab91-a2a9-4099-bcfd-ae057ec0d56e
+  port: 51499
+  uuid: c643de0a-9678-4c18-9f55-58620425bac0
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: www.yahoo.com
+  servername: aws.amazon.com
   reality-opts:
-    public-key: CORDH3FlQivimoVRhU_ZEUFzI-mT3Ko9CqTr7_CPtXw
-    short-id: 694212ed
+    public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -367,7 +367,7 @@ proxy-groups:
   - United States_Los Angeles_reality_1
   - United States_None_reality_2
   - United States_Los Angeles_reality_3
-  - Russia_None_reality_4
+  - United States_None_reality_4
   - United States_Los Angeles_reality_5
 - name: 自动选择
   type: url-test
@@ -400,7 +400,7 @@ proxy-groups:
   - United States_Los Angeles_reality_1
   - United States_None_reality_2
   - United States_Los Angeles_reality_3
-  - Russia_None_reality_4
+  - United States_None_reality_4
   - United States_Los Angeles_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
