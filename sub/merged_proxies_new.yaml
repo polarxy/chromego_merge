@@ -282,11 +282,11 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: United States_None_reality_2
+- name: Taiwan_Keelung_reality_2
   type: vless
-  server: 198.40.52.26
-  port: 20783
-  uuid: 942e9337-6cd1-471e-ae3e-6a4ae0f38465
+  server: tw-2.534582.xyz
+  port: 39747
+  uuid: cf111519-9992-4e2e-8675-8e8edc178578
   network: tcp
   tls: true
   udp: true
@@ -294,7 +294,7 @@ proxies:
   client-fingerprint: chrome
   servername: aws.amazon.com
   reality-opts:
-    public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
+    public-key: nHo49RB7F74I1uH_YitKGY5GxejTq0XcY8BbEKe99xE
     short-id: ''
 - name: United States_Los Angeles_reality_3
   type: vless
@@ -367,7 +367,7 @@ proxy-groups:
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
-  - United States_None_reality_2
+  - Taiwan_Keelung_reality_2
   - United States_Los Angeles_reality_3
   - United States_None_reality_4
   - United States_Los Angeles_reality_5
@@ -400,7 +400,7 @@ proxy-groups:
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
-  - United States_None_reality_2
+  - Taiwan_Keelung_reality_2
   - United States_Los Angeles_reality_3
   - United States_None_reality_4
   - United States_Los Angeles_reality_5
