@@ -124,15 +124,15 @@ proxies:
   down: 55 Mbps
 - name: United States_None_hy_0
   type: hysteria
-  server: 198.40.52.27
-  port: 36194
-  ports: 36194
+  server: 208.87.243.151
+  port: 17549
+  ports: 17549
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -166,15 +166,15 @@ proxies:
   - h3
 - name: United States_None_hy_3
   type: hysteria
-  server: 198.40.52.27
-  port: 36194
-  ports: 36194
+  server: 208.87.243.151
+  port: 17549
+  ports: 17549
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
