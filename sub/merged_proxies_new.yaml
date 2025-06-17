@@ -209,7 +209,7 @@ proxies:
 - name: France_Paris_hy2_0
   type: hysteria2
   server: 51.158.218.2
-  port: 4489
+  port: 50066
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -233,7 +233,7 @@ proxies:
 - name: France_Paris_hy2_3
   type: hysteria2
   server: 51.158.218.2
-  port: 4489
+  port: 50066
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
