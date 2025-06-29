@@ -282,7 +282,7 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: Taiwan_Keelung_reality_2
+- name: Taiwan_Taipei_reality_2
   type: vless
   server: tw-2.534582.xyz
   port: 39747
@@ -367,7 +367,7 @@ proxy-groups:
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
-  - Taiwan_Keelung_reality_2
+  - Taiwan_Taipei_reality_2
   - United States_Los Angeles_reality_3
   - United States_None_reality_4
   - United States_Los Angeles_reality_5
@@ -400,7 +400,7 @@ proxy-groups:
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
-  - Taiwan_Keelung_reality_2
+  - Taiwan_Taipei_reality_2
   - United States_Los Angeles_reality_3
   - United States_None_reality_4
   - United States_Los Angeles_reality_5
