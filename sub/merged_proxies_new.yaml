@@ -310,19 +310,19 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: United States_None_reality_4
+- name: Russia_None_reality_4
   type: vless
-  server: 198.40.52.26
-  port: 20783
-  uuid: 942e9337-6cd1-471e-ae3e-6a4ae0f38465
+  server: 185.22.155.105
+  port: 62750
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: aws.amazon.com
+  servername: www.paypal.com
   reality-opts:
-    public-key: hoDqIoXDTQap0fGHAsSkCPmGq3CpUjjnholUcahMb3Y
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
 - name: United States_Los Angeles_reality_5
   type: vless
@@ -369,7 +369,7 @@ proxy-groups:
   - United States_Los Angeles_reality_1
   - Taiwan_Keelung_reality_2
   - United States_Los Angeles_reality_3
-  - United States_None_reality_4
+  - Russia_None_reality_4
   - United States_Los Angeles_reality_5
 - name: 自动选择
   type: url-test
@@ -402,7 +402,7 @@ proxy-groups:
   - United States_Los Angeles_reality_1
   - Taiwan_Keelung_reality_2
   - United States_Los Angeles_reality_3
-  - United States_None_reality_4
+  - Russia_None_reality_4
   - United States_Los Angeles_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
