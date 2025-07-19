@@ -98,7 +98,7 @@ proxies:
   password: dongtaiwang.com
 - name: Taiwan_Taipei_anytls_71
   type: anytls
-  server: tx-1.756794.xyz
+  server: tw.399403.xyz
   port: 8443
   password: dongtaiwang.com
   client-fingerprint: chrome
@@ -282,19 +282,19 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: Taiwan_Taipei_reality_2
+- name: Russia_None_reality_2
   type: vless
-  server: tx-2.756794.xyz
-  port: 49226
-  uuid: 9244d7a3-6c74-4035-b64f-a90f3ee6e173
+  server: 185.22.155.105
+  port: 62750
+  uuid: fdd2d176-2602-46f2-b694-ce247de88b22
   network: tcp
   tls: true
   udp: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: dash.cloudflare.com
+  servername: www.paypal.com
   reality-opts:
-    public-key: vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ
+    public-key: _E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA
     short-id: ''
 - name: United States_Los Angeles_reality_3
   type: vless
@@ -367,7 +367,7 @@ proxy-groups:
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
-  - Taiwan_Taipei_reality_2
+  - Russia_None_reality_2
   - United States_Los Angeles_reality_3
   - Russia_None_reality_4
   - United States_Los Angeles_reality_5
@@ -400,7 +400,7 @@ proxy-groups:
   - Russia_Moscow_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
-  - Taiwan_Taipei_reality_2
+  - Russia_None_reality_2
   - United States_Los Angeles_reality_3
   - Russia_None_reality_4
   - United States_Los Angeles_reality_5
