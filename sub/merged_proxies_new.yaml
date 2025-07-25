@@ -214,13 +214,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Russia_Moscow_hy2_1
+- name: France_Paris_hy2_1
   type: hysteria2
-  server: 46.17.41.5
-  port: 12904
+  server: 51.158.218.2
+  port: 50066
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: France_Paris_hy2_2
   type: hysteria2
@@ -246,13 +246,13 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Russia_Moscow_hy2_5
+- name: France_Paris_hy2_5
   type: hysteria2
-  server: 46.17.41.5
-  port: 12904
+  server: 51.158.218.2
+  port: 50066
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: United States_Los Angeles_reality_0
   type: vless
@@ -360,11 +360,11 @@ proxy-groups:
   - France_Paris_hy_4
   - France_Paris_hy_5
   - France_Paris_hy2_0
-  - Russia_Moscow_hy2_1
+  - France_Paris_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
-  - Russia_Moscow_hy2_5
+  - France_Paris_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
   - Russia_None_reality_2
@@ -393,11 +393,11 @@ proxy-groups:
   - France_Paris_hy_4
   - France_Paris_hy_5
   - France_Paris_hy2_0
-  - Russia_Moscow_hy2_1
+  - France_Paris_hy2_1
   - France_Paris_hy2_2
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
-  - Russia_Moscow_hy2_5
+  - France_Paris_hy2_5
   - United States_Los Angeles_reality_0
   - United States_Los Angeles_reality_1
   - Russia_None_reality_2
