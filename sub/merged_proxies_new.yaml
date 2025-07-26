@@ -273,20 +273,6 @@ proxies:
   reality-opts:
     public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
     short-id: ''
-- name: United States_Los Angeles_reality_1
-  type: vless
-  server: 108.181.3.67
-  port: 51499
-  uuid: c643de0a-9678-4c18-9f55-58620425bac0
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: aws.amazon.com
-  reality-opts:
-    public-key: S4-VtlwDUlz7CbSlpf8mqD4ejRWFOISwCXqdtm3JCww
-    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -315,7 +301,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - France_Paris_hy2_5
   - United States_Los Angeles_reality_0
-  - United States_Los Angeles_reality_1
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -344,7 +329,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_4
   - France_Paris_hy2_5
   - United States_Los Angeles_reality_0
-  - United States_Los Angeles_reality_1
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
