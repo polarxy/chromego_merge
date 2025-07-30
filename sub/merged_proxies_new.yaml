@@ -65,7 +65,7 @@ proxies:
 - name: The Netherlands_Amsterdam_hysteria_31
   type: hysteria
   server: 62.210.10.113
-  port: 22662
+  port: 13767
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -76,9 +76,9 @@ proxies:
   down: 55 Mbps
 - name: United States_Los Angeles_tuic_41
   server: 108.181.5.131
-  port: 34008
+  port: 22998
   type: tuic
-  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
   password: dongtaiwang.com
   alpn:
   - h3
@@ -90,7 +90,7 @@ proxies:
 - name: United States_Los Angeles_mieru_51
   type: mieru
   server: 108.181.23.41
-  port: 28676
+  port: 50223
   transport: TCP
   username: dongtaiwang.com
   password: dongtaiwang.com
@@ -177,8 +177,8 @@ proxies:
 - name: United States_None_hy_3
   type: hysteria
   server: 208.87.243.151
-  port: 17549
-  ports: 17549
+  port: 38845
+  ports: 38845
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -191,8 +191,8 @@ proxies:
 - name: France_Paris_hy_4
   type: hysteria
   server: 51.159.226.1
-  port: 14241
-  ports: 14241
+  port: 49003
+  ports: 49003
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -205,8 +205,8 @@ proxies:
 - name: France_Paris_hy_5
   type: hysteria
   server: 51.159.226.1
-  port: 14241
-  ports: 14241
+  port: 49003
+  ports: 49003
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -235,10 +235,10 @@ proxies:
 - name: France_Paris_hy2_2
   type: hysteria2
   server: 51.159.111.32
-  port: 31180
+  port: 5355
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: France_Paris_hy2_3
   type: hysteria2
