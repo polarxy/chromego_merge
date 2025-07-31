@@ -27,9 +27,9 @@ dns:
 proxies:
 - name: United States_Los Angeles_tuic_01
   server: 108.181.5.131
-  port: 34008
+  port: 22998
   type: tuic
-  uuid: f84c91a4-0125-4495-82f3-732cd0a0bba8
+  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
   password: dongtaiwang.com
   alpn:
   - h3
@@ -135,8 +135,8 @@ proxies:
 - name: United States_None_hy_0
   type: hysteria
   server: 208.87.243.151
-  port: 17549
-  ports: 17549
+  port: 38845
+  ports: 38845
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -149,8 +149,8 @@ proxies:
 - name: France_Paris_hy_1
   type: hysteria
   server: 51.159.226.1
-  port: 14241
-  ports: 14241
+  port: 49003
+  ports: 49003
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
