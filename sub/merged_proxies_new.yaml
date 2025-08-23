@@ -154,7 +154,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_anytls_71
+- name: Taiwan_Daan_anytls_71
   type: anytls
   server: tw.399403.xyz
   port: 8443
@@ -329,7 +329,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
   - United States_Los Angeles_hysteria_61
-  - Taiwan_Taipei_anytls_71
+  - Taiwan_Daan_anytls_71
   - United States_Los Angeles_hysteria_81
   - United States_None_hy_0
   - France_Paris_hy_1
@@ -360,7 +360,7 @@ proxy-groups:
   - United States_Los Angeles_tuic_41
   - United States_Los Angeles_mieru_51
   - United States_Los Angeles_hysteria_61
-  - Taiwan_Taipei_anytls_71
+  - Taiwan_Daan_anytls_71
   - United States_Los Angeles_hysteria_81
   - United States_None_hy_0
   - France_Paris_hy_1
