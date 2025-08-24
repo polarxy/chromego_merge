@@ -50,10 +50,58 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hysteria_21
+- name: Unknown_hysteria_21
   type: hysteria
-  server: 108.181.24.77
-  port: 11512
+  server: 2001:bc8:1203:106::200
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_22
+  type: hysteria
+  server: 2001:bc8:1203:106::201
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_23
+  type: hysteria
+  server: 2001:bc8:1203:106::202
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_24
+  type: hysteria
+  server: 2001:bc8:1203:106::203
+  port: 47821
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_25
+  type: hysteria
+  server: 2001:bc8:1203:106::204
+  port: 47821
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -411,6 +459,48 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: Unknown_reality_1
+  type: vless
+  server: 2001:bc8:32d7:302::15
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
+- name: Unknown_reality_3
+  type: vless
+  server: 2001:bc8:32d7:302::14
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
+- name: Unknown_reality_5
+  type: vless
+  server: 2001:bc8:32d7:302::15
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: dash.cloudflare.com
+  reality-opts:
+    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -419,7 +509,11 @@ proxy-groups:
   - DIRECT
   - United States_Los Angeles_tuic_01
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
+  - Unknown_hysteria_21
+  - Unknown_hysteria_22
+  - Unknown_hysteria_23
+  - Unknown_hysteria_24
+  - Unknown_hysteria_25
   - The Netherlands_Amsterdam_hysteria_31
   - Unknown_hysteria_32
   - Unknown_hysteria_33
@@ -450,6 +544,9 @@ proxy-groups:
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - France_Paris_hy2_5
+  - Unknown_reality_1
+  - Unknown_reality_3
+  - Unknown_reality_5
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -458,7 +555,11 @@ proxy-groups:
   proxies:
   - United States_Los Angeles_tuic_01
   - United States_Los Angeles_hysteria_11
-  - United States_Los Angeles_hysteria_21
+  - Unknown_hysteria_21
+  - Unknown_hysteria_22
+  - Unknown_hysteria_23
+  - Unknown_hysteria_24
+  - Unknown_hysteria_25
   - The Netherlands_Amsterdam_hysteria_31
   - Unknown_hysteria_32
   - Unknown_hysteria_33
@@ -489,6 +590,9 @@ proxy-groups:
   - France_Paris_hy2_3
   - United States_Los Angeles_hy2_4
   - France_Paris_hy2_5
+  - Unknown_reality_1
+  - Unknown_reality_3
+  - Unknown_reality_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
