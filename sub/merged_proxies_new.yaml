@@ -110,10 +110,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: The Netherlands_Amsterdam_hysteria_31
+- name: France_Paris_hysteria_31
   type: hysteria
-  server: 62.210.10.113
-  port: 14801
+  server: 51.159.111.32
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -124,8 +124,8 @@ proxies:
   down: 55 Mbps
 - name: Unknown_hysteria_32
   type: hysteria
-  server: 2001:bc8:32d7:306::123
-  port: 14801
+  server: 2001:bc8:1203:106::111
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -136,8 +136,8 @@ proxies:
   down: 55 Mbps
 - name: Unknown_hysteria_33
   type: hysteria
-  server: 2001:bc8:32d7:306::124
-  port: 14801
+  server: 2001:bc8:1203:106::112
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -148,8 +148,8 @@ proxies:
   down: 55 Mbps
 - name: Unknown_hysteria_34
   type: hysteria
-  server: 2001:bc8:32d7:306::125
-  port: 14801
+  server: 2001:bc8:1203:106::113
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -160,8 +160,8 @@ proxies:
   down: 55 Mbps
 - name: Unknown_hysteria_35
   type: hysteria
-  server: 2001:bc8:32d7:306::126
-  port: 14801
+  server: 2001:bc8:1203:106::114
+  port: 15670
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -500,7 +500,7 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - The Netherlands_Amsterdam_hysteria_31
+  - France_Paris_hysteria_31
   - Unknown_hysteria_32
   - Unknown_hysteria_33
   - Unknown_hysteria_34
@@ -545,7 +545,7 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - The Netherlands_Amsterdam_hysteria_31
+  - France_Paris_hysteria_31
   - Unknown_hysteria_32
   - Unknown_hysteria_33
   - Unknown_hysteria_34
