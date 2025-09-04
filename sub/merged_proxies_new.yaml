@@ -25,11 +25,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: United States_Los Angeles_tuic_01
-  server: 108.181.5.131
-  port: 22998
+- name: France_None_tuic_01
+  server: 62.210.10.140
+  port: 23556
   type: tuic
-  uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
   password: dongtaiwang.com
   alpn:
   - h3
@@ -491,7 +491,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - United States_Los Angeles_tuic_01
+  - France_None_tuic_01
   - United States_Los Angeles_hysteria_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
@@ -535,7 +535,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - United States_Los Angeles_tuic_01
+  - France_None_tuic_01
   - United States_Los Angeles_hysteria_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
