@@ -38,18 +38,22 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_11
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: Unknown_vless_11
+  type: vless
+  server: 2001:bc8:32d7:158::5
+  port: 10033
+  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
+  network: grpc
+  udp: true
+  tls: true
+  flow: null
+  servername: nijigen-works.jp
+  reality-opts:
+    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+    short-id: dfdfb0e2e2d400c4
+  grpc-opts:
+    grpc-service-name: FhwHiFzK
+  client-fingerprint: chrome
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:1203:106::200
@@ -337,17 +341,17 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_None_hy_0
+- name: France_Paris_hy_0
   type: hysteria
-  server: 208.87.243.151
-  port: 38845
-  ports: 38845
+  server: 62.210.127.217
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -496,7 +500,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - France_None_tuic_01
-  - United States_Los Angeles_hysteria_11
+  - Unknown_vless_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
   - Unknown_hysteria_23
@@ -520,7 +524,7 @@ proxy-groups:
   - Unknown_hysteria_83
   - Unknown_hysteria_84
   - Unknown_hysteria_85
-  - United States_None_hy_0
+  - France_Paris_hy_0
   - France_Paris_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
@@ -540,7 +544,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - France_None_tuic_01
-  - United States_Los Angeles_hysteria_11
+  - Unknown_vless_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
   - Unknown_hysteria_23
@@ -564,7 +568,7 @@ proxy-groups:
   - Unknown_hysteria_83
   - Unknown_hysteria_84
   - Unknown_hysteria_85
-  - United States_None_hy_0
+  - France_Paris_hy_0
   - France_Paris_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
