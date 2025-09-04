@@ -196,18 +196,22 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: United States_Los Angeles_hysteria_61
-  type: hysteria
-  server: 108.181.24.77
-  port: 11512
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: Unknown_vless_61
+  type: vless
+  server: 2001:bc8:32d7:312::4
+  port: 10033
+  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
+  network: grpc
+  udp: true
+  tls: true
+  flow: null
+  servername: nijigen-works.jp
+  reality-opts:
+    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
+    short-id: dfdfb0e2e2d400c4
+  grpc-opts:
+    grpc-service-name: FhwHiFzK
+  client-fingerprint: chrome
 - name: Unknown_tuic_71
   server: 2001:bc8:1203:106::100
   port: 55111
@@ -375,17 +379,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: United States_None_hy_3
+- name: France_Paris_hy_3
   type: hysteria
-  server: 208.87.243.151
-  port: 38845
-  ports: 38845
+  server: 62.210.127.217
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -505,7 +509,7 @@ proxy-groups:
   - Unknown_hysteria_35
   - France_None_tuic_41
   - Unknown_tuic_51
-  - United States_Los Angeles_hysteria_61
+  - Unknown_vless_61
   - Unknown_tuic_71
   - Unknown_tuic_72
   - Unknown_tuic_73
@@ -519,7 +523,7 @@ proxy-groups:
   - United States_None_hy_0
   - France_Paris_hy_1
   - France_Paris_hy_2
-  - United States_None_hy_3
+  - France_Paris_hy_3
   - France_Paris_hy_4
   - France_Paris_hy_5
   - France_Paris_hy2_0
@@ -549,7 +553,7 @@ proxy-groups:
   - Unknown_hysteria_35
   - France_None_tuic_41
   - Unknown_tuic_51
-  - United States_Los Angeles_hysteria_61
+  - Unknown_vless_61
   - Unknown_tuic_71
   - Unknown_tuic_72
   - Unknown_tuic_73
@@ -563,7 +567,7 @@ proxy-groups:
   - United States_None_hy_0
   - France_Paris_hy_1
   - France_Paris_hy_2
-  - United States_None_hy_3
+  - France_Paris_hy_3
   - France_Paris_hy_4
   - France_Paris_hy_5
   - France_Paris_hy2_0
