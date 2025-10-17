@@ -354,20 +354,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_1
-  type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy_2
   type: hysteria
   server: 195.154.200.40
@@ -410,20 +396,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_Paris_hy_5
-  type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
-  auth_str: dongtaiwang.com
-  up: 1000
-  down: 1000
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: France_Paris_hy2_0
   type: hysteria2
   server: 51.158.218.2
@@ -440,18 +412,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: France_Paris_hy2_2
+- name: France_None_hy2_2
   type: hysteria2
-  server: 51.159.111.32
+  server: 163.172.21.105
   port: 5355
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: France_Paris_hy2_3
-  type: hysteria2
-  server: 51.158.218.2
-  port: 50066
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -524,15 +488,12 @@ proxy-groups:
   - Unknown_hysteria_84
   - Unknown_hysteria_85
   - France_Paris_hy_0
-  - France_Paris_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
-  - France_Paris_hy_5
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - France_Paris_hy2_2
-  - France_Paris_hy2_3
+  - France_None_hy2_2
   - France_Paris_hy2_5
   - Unknown_reality_1
   - Unknown_reality_5
@@ -568,15 +529,12 @@ proxy-groups:
   - Unknown_hysteria_84
   - Unknown_hysteria_85
   - France_Paris_hy_0
-  - France_Paris_hy_1
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
-  - France_Paris_hy_5
   - France_Paris_hy2_0
   - France_Paris_hy2_1
-  - France_Paris_hy2_2
-  - France_Paris_hy2_3
+  - France_None_hy2_2
   - France_Paris_hy2_5
   - Unknown_reality_1
   - Unknown_reality_5
