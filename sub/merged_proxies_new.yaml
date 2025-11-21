@@ -115,11 +115,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_tuic_31
-  server: 51.159.107.20
-  port: 55255
+- name: Germany_None_tuic_31
+  server: 89.144.35.230
+  port: 50088
   type: tuic
-  uuid: 79529c4a-4028-4701-a6d6-4e94b78b50fd
+  uuid: 93959440-4f83-4352-b939-906b1fd3fa59
   password: dongtaiwang.com
   alpn:
   - h3
@@ -438,7 +438,7 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_Paris_tuic_31
+  - Germany_None_tuic_31
   - France_Paris_anytls_32
   - France_Paris_hysteria_33
   - Unknown_hysteria_34
@@ -476,7 +476,7 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_Paris_tuic_31
+  - Germany_None_tuic_31
   - France_Paris_anytls_32
   - France_Paris_hysteria_33
   - Unknown_hysteria_34
