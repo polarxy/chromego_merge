@@ -115,7 +115,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_31
+- name: France_Paris_tuic_31
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -419,7 +419,7 @@ proxies:
   skip-cert-verify: true
 - name: France_Paris_hy2_5
   type: hysteria2
-  server: 51.158.218.2
+  server: 51.158.205.126
   port: 50066
   password: dongtaiwang.com
   fast-open: true
@@ -438,7 +438,7 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_None_tuic_31
+  - France_Paris_tuic_31
   - France_Paris_anytls_32
   - France_None_hysteria_33
   - Unknown_hysteria_34
@@ -476,7 +476,7 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_None_tuic_31
+  - France_Paris_tuic_31
   - France_Paris_anytls_32
   - France_None_hysteria_33
   - Unknown_hysteria_34
