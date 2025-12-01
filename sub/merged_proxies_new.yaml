@@ -39,22 +39,6 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: Unknown_vless_11
-  type: vless
-  server: 2001:bc8:32d7:158::5
-  port: 10033
-  uuid: 56618bde-5a09-4ef8-ae56-6e7a8d69ec67
-  network: grpc
-  udp: true
-  tls: true
-  flow: null
-  servername: nijigen-works.jp
-  reality-opts:
-    public-key: m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0
-    short-id: dfdfb0e2e2d400c4
-  grpc-opts:
-    grpc-service-name: FhwHiFzK
-  client-fingerprint: chrome
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:1203:106::200
@@ -115,7 +99,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_31
+- name: France_Paris_tuic_31
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -416,13 +400,12 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - France_None_anytls_01
-  - Unknown_vless_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_None_tuic_31
+  - France_Paris_tuic_31
   - France_Paris_anytls_32
   - France_Paris_hysteria_33
   - Unknown_hysteria_34
@@ -453,13 +436,12 @@ proxy-groups:
   tolerance: 50
   proxies:
   - France_None_anytls_01
-  - Unknown_vless_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_None_tuic_31
+  - France_Paris_tuic_31
   - France_Paris_anytls_32
   - France_Paris_hysteria_33
   - Unknown_hysteria_34
