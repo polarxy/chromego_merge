@@ -25,10 +25,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: France_None_anytls_01
+- name: Türkiye_None_anytls_01
   type: anytls
-  server: 62.210.10.140
-  port: 8443
+  server: 45.221.98.14
+  port: 59901
   password: dongtaiwang.com
   client-fingerprint: chrome
   udp: true
@@ -99,7 +99,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_31
+- name: France_Paris_tuic_31
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -399,13 +399,13 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - France_None_anytls_01
+  - Türkiye_None_anytls_01
   - Unknown_hysteria_21
   - Unknown_hysteria_22
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_None_tuic_31
+  - France_Paris_tuic_31
   - France_Paris_anytls_32
   - France_Paris_hysteria_33
   - Unknown_hysteria_34
@@ -435,13 +435,13 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - France_None_anytls_01
+  - Türkiye_None_anytls_01
   - Unknown_hysteria_21
   - Unknown_hysteria_22
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_None_tuic_31
+  - France_Paris_tuic_31
   - France_Paris_anytls_32
   - France_Paris_hysteria_33
   - Unknown_hysteria_34
