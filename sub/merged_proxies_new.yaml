@@ -126,7 +126,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_Paris_hysteria_33
+- name: France_None_hysteria_33
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -248,15 +248,15 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: Unknown_tuic_71
-  server: 2001:bc8:1203:106::100
-  port: 55111
+- name: The Netherlands_Haarlem_tuic_71
+  server: 51.158.194.63
+  port: 55880
   type: tuic
-  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  uuid: 95844688-9279-43ff-9f85-20e62b2cbcd4
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
@@ -467,14 +467,14 @@ proxy-groups:
   - Unknown_hysteria_25
   - France_Paris_tuic_31
   - France_Paris_anytls_32
-  - France_Paris_hysteria_33
+  - France_None_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
   - France_Paris_vless_51
   - Unknown_vless_52
   - Unknown_vless_53
-  - Unknown_tuic_71
+  - The Netherlands_Haarlem_tuic_71
   - Unknown_tuic_72
   - Unknown_tuic_73
   - Unknown_tuic_74
@@ -505,14 +505,14 @@ proxy-groups:
   - Unknown_hysteria_25
   - France_Paris_tuic_31
   - France_Paris_anytls_32
-  - France_Paris_hysteria_33
+  - France_None_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
   - France_Paris_vless_51
   - Unknown_vless_52
   - Unknown_vless_53
-  - Unknown_tuic_71
+  - The Netherlands_Haarlem_tuic_71
   - Unknown_tuic_72
   - Unknown_tuic_73
   - Unknown_tuic_74
