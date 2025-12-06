@@ -99,7 +99,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_tuic_31
+- name: France_None_tuic_31
   server: ipv4.758733.xyz
   port: 50088
   type: tuic
@@ -126,7 +126,7 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: France_None_hysteria_33
+- name: France_Paris_hysteria_33
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -465,9 +465,9 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_Paris_tuic_31
+  - France_None_tuic_31
   - France_Paris_anytls_32
-  - France_None_hysteria_33
+  - France_Paris_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
@@ -503,9 +503,9 @@ proxy-groups:
   - Unknown_hysteria_23
   - Unknown_hysteria_24
   - Unknown_hysteria_25
-  - France_Paris_tuic_31
+  - France_None_tuic_31
   - France_Paris_anytls_32
-  - France_None_hysteria_33
+  - France_Paris_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
