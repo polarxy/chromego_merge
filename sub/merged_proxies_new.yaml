@@ -437,14 +437,6 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: France_None_hy2_2
-  type: hysteria2
-  server: 163.172.21.105
-  port: 5355
-  password: dongtaiwang.com
-  fast-open: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: The Netherlands_Haarlem_hy2_5
   type: hysteria2
   server: 51.158.194.63
@@ -489,7 +481,6 @@ proxy-groups:
   - France_None_hy_3
   - France_Paris_hy_4
   - The Netherlands_Haarlem_hy2_1
-  - France_None_hy2_2
   - The Netherlands_Haarlem_hy2_5
 - name: 自动选择
   type: url-test
@@ -527,7 +518,6 @@ proxy-groups:
   - France_None_hy_3
   - France_Paris_hy_4
   - The Netherlands_Haarlem_hy2_1
-  - France_None_hy2_2
   - The Netherlands_Haarlem_hy2_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
