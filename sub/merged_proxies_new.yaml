@@ -41,58 +41,10 @@ proxies:
   skip-cert-verify: true
 - name: Unknown_hysteria_21
   type: hysteria
-  server: 2001:bc8:1203:106::200
-  port: 47821
+  server: 2001:bc8:32d7:14f::4
+  port: 23880
   auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_22
-  type: hysteria
-  server: 2001:bc8:1203:106::201
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_23
-  type: hysteria
-  server: 2001:bc8:1203:106::202
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_24
-  type: hysteria
-  server: 2001:bc8:1203:106::203
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_25
-  type: hysteria
-  server: 2001:bc8:1203:106::204
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -348,10 +300,6 @@ proxy-groups:
   - DIRECT
   - Türkiye_None_anytls_01
   - Unknown_hysteria_21
-  - Unknown_hysteria_22
-  - Unknown_hysteria_23
-  - Unknown_hysteria_24
-  - Unknown_hysteria_25
   - France_None_tuic_31
   - France_Paris_anytls_32
   - France_None_hysteria_33
@@ -377,10 +325,6 @@ proxy-groups:
   proxies:
   - Türkiye_None_anytls_01
   - Unknown_hysteria_21
-  - Unknown_hysteria_22
-  - Unknown_hysteria_23
-  - Unknown_hysteria_24
-  - Unknown_hysteria_25
   - France_None_tuic_31
   - France_Paris_anytls_32
   - France_None_hysteria_33
