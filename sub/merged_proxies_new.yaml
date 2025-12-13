@@ -87,7 +87,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: France_Paris_hysteria_33
+- name: France_None_hysteria_33
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -221,11 +221,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Germany_None_hy_0
+- name: France_Paris_hy_0
   type: hysteria
-  server: 5.83.129.248
-  port: 56701
-  ports: 56701
+  server: 51.159.107.20
+  port: 40121
+  ports: 40121
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -311,7 +311,7 @@ proxy-groups:
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_vless_32
-  - France_Paris_hysteria_33
+  - France_None_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
@@ -319,7 +319,7 @@ proxy-groups:
   - Unknown_vless_52
   - Unknown_vless_53
   - Unknown_hysteria_81
-  - Germany_None_hy_0
+  - France_Paris_hy_0
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
@@ -336,7 +336,7 @@ proxy-groups:
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_vless_32
-  - France_Paris_hysteria_33
+  - France_None_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
@@ -344,7 +344,7 @@ proxy-groups:
   - Unknown_vless_52
   - Unknown_vless_53
   - Unknown_hysteria_81
-  - Germany_None_hy_0
+  - France_Paris_hy_0
   - France_Paris_hy_2
   - France_Paris_hy_3
   - France_Paris_hy_4
