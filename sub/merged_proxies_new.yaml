@@ -110,7 +110,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: France_Paris_hysteria_33
+- name: France_None_hysteria_33
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -359,7 +359,7 @@ proxy-groups:
   - Unknown_hysteria_21
   - The Netherlands_Haarlem_hysteria2_31
   - France_Paris_vless_32
-  - France_Paris_hysteria_33
+  - France_None_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
@@ -386,7 +386,7 @@ proxy-groups:
   - Unknown_hysteria_21
   - The Netherlands_Haarlem_hysteria2_31
   - France_Paris_vless_32
-  - France_Paris_hysteria_33
+  - France_None_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
