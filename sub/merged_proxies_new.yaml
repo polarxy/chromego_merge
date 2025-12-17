@@ -111,7 +111,7 @@ proxies:
       enabled: true
       up: 50
       down: 100
-- name: France_None_hysteria_33
+- name: France_Paris_hysteria_33
   type: hysteria
   server: ipv4.758733.xyz
   port: 20001
@@ -333,13 +333,13 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: The Netherlands_Haarlem_hy2_2
+- name: France_None_hy2_2
   type: hysteria2
-  server: 51.158.194.63
-  port: 32952
+  server: 5.178.101.106
+  port: 11000
   password: dongtaiwang.com
   fast-open: true
-  sni: www.microsoft.com
+  sni: apple.com
   skip-cert-verify: true
 - name: The Netherlands_Haarlem_hy2_5
   type: hysteria2
@@ -360,7 +360,7 @@ proxy-groups:
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - France_Paris_vless_32
-  - France_None_hysteria_33
+  - France_Paris_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
@@ -374,7 +374,7 @@ proxy-groups:
   - Germany_None_hy_3
   - France_Paris_hy_4
   - The Netherlands_Haarlem_hy2_1
-  - The Netherlands_Haarlem_hy2_2
+  - France_None_hy2_2
   - The Netherlands_Haarlem_hy2_5
 - name: 自动选择
   type: url-test
@@ -387,7 +387,7 @@ proxy-groups:
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - France_Paris_vless_32
-  - France_None_hysteria_33
+  - France_Paris_hysteria_33
   - Unknown_hysteria_34
   - Unknown_hysteria_35
   - Türkiye_None_anytls_41
@@ -401,7 +401,7 @@ proxy-groups:
   - Germany_None_hy_3
   - France_Paris_hy_4
   - The Netherlands_Haarlem_hy2_1
-  - The Netherlands_Haarlem_hy2_2
+  - France_None_hy2_2
   - The Netherlands_Haarlem_hy2_5
 rules:
 - DOMAIN,clash.razord.top,DIRECT
