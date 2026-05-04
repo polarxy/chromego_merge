@@ -51,12 +51,12 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: Germany_None_tuic_21
-  server: 178.18.147.199
-  port: 42487
+- name: France_None_tuic_21
+  server: 5.178.101.117
+  port: 30006
   type: tuic
-  uuid: b35b50d1-7830-4a68-94db-349c2d2f8e43
-  password: b35b50d1-7830-4a68-94db-349c2d2f8e43
+  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
+  password: dongtaiwang.com
   sni: www.microsoft.com
   alpn:
   - h3
@@ -85,7 +85,7 @@ proxy-groups:
   - DIRECT
   - France_None_tuic_01
   - France_None_tuic_11
-  - Germany_None_tuic_21
+  - France_None_tuic_21
   - France_None_tuic_31
 - name: 自动选择
   type: url-test
@@ -95,7 +95,7 @@ proxy-groups:
   proxies:
   - France_None_tuic_01
   - France_None_tuic_11
-  - Germany_None_tuic_21
+  - France_None_tuic_21
   - France_None_tuic_31
 rules:
 - DOMAIN,clash.razord.top,DIRECT
