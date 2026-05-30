@@ -25,18 +25,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: France_Sarcelles_hysteria_01
-  type: hysteria
-  server: 62.210.29.98
-  port: 10066
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: France_None_hysteria_11
   type: hysteria
   server: 163.172.117.163
@@ -81,7 +69,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - France_Sarcelles_hysteria_01
   - France_None_hysteria_11
   - France_None_tuic_21
   - France_None_tuic_31
@@ -91,7 +78,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - France_Sarcelles_hysteria_01
   - France_None_hysteria_11
   - France_None_tuic_21
   - France_None_tuic_31
