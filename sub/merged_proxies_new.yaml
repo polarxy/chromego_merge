@@ -25,7 +25,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: France_Sarcelles_hysteria2_01
+- name: France_None_hysteria2_01
   type: hysteria2
   server: clash-ip1.934618.xyz
   port: 18271
@@ -78,7 +78,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - France_Sarcelles_hysteria2_01
+  - France_None_hysteria2_01
   - France_None_hysteria_11
   - France_None_tuic_21
   - France_None_tuic_31
@@ -88,7 +88,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - France_Sarcelles_hysteria2_01
+  - France_None_hysteria2_01
   - France_None_hysteria_11
   - France_None_tuic_21
   - France_None_tuic_31
