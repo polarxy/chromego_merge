@@ -25,18 +25,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: France_None_hysteria_01
-  type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: United States_None_anytls_01
+  type: anytls
+  server: 198.200.57.154
+  port: 22556
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 5
   sni: bing.com
-  skip-cert-verify: true
   alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+  - h2
+  - http/1.1
+  skip-cert-verify: true
 - name: France_None_hysteria_11
   type: hysteria
   server: 163.172.117.163
@@ -61,39 +63,38 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_31
-  server: 5.178.101.117
-  port: 30006
-  type: tuic
-  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+- name: France_None_hysteria_31
+  type: hysteria
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
-  skip-cert-verify: true
-  congestion-controller: bbr
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - France_None_hysteria_01
+  - United States_None_anytls_01
   - France_None_hysteria_11
   - France_None_hysteria_21
-  - France_None_tuic_31
+  - France_None_hysteria_31
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - France_None_hysteria_01
+  - United States_None_anytls_01
   - France_None_hysteria_11
   - France_None_hysteria_21
-  - France_None_tuic_31
+  - France_None_hysteria_31
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
