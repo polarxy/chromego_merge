@@ -49,19 +49,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_tuic_21
-  server: 5.178.101.117
-  port: 30006
-  type: tuic
-  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+- name: France_None_hysteria_21
+  type: hysteria
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
-  skip-cert-verify: true
-  congestion-controller: bbr
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: France_None_tuic_31
   server: 5.178.101.117
   port: 30006
@@ -83,7 +82,7 @@ proxy-groups:
   - DIRECT
   - France_None_hysteria_01
   - France_None_hysteria_11
-  - France_None_tuic_21
+  - France_None_hysteria_21
   - France_None_tuic_31
 - name: 自动选择
   type: url-test
@@ -93,7 +92,7 @@ proxy-groups:
   proxies:
   - France_None_hysteria_01
   - France_None_hysteria_11
-  - France_None_tuic_21
+  - France_None_hysteria_21
   - France_None_tuic_31
 rules:
 - DOMAIN,clash.razord.top,DIRECT
